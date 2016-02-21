@@ -1,0 +1,59 @@
+form .hp { /** HONEYPOT SPAM TRAP **/
+	display:none !important;
+}
+form#contactform * {
+	box-sizing:border-box;
+}
+form#contactform  div {
+	padding: 4px 0;
+}
+
+form#contactform  div  label {
+	display:block;
+	
+}
+form#contactform input[type='text'], form#contactform input[type='email'], form#contactform  textarea {
+	width:100%;
+}
+
+
+@media (min-width: 992px) {
+form#contactform  div  label {
+	width:25%;
+	
+	float:left;
+	text-align:right;
+	padding: 0 2px;
+}
+
+form#contactform input[type='text'], form#contactform input[type='email'], form#contactform  textarea {
+	width:50%;
+}
+}
+
+form#contactform  span#input_reply_using label {
+	width:auto;
+}
+
+form#contactform  #optingroups {
+	overflow:hidden;
+}
+
+
+form#contactform  #optingroups label.nowrap {
+	width:auto;
+}
+
+
+.required {
+	color:#F00;
+	font-weight:bold;
+	display:none;
+}
+#googlemap {
+/*	float: right;
+	height: 400px;
+	width: 600px;
+	margin-left: 10px;*/
+	display:none;
+}

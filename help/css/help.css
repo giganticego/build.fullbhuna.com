@@ -1,0 +1,28 @@
+body {
+	background-color: #CCC;
+}
+
+.container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FFF;
+}
+
+nav {
+	float:right;
+}
+
+.vote {
+	float:left;
+	display:none;
+}
+
+.full-bhuna {
+	display:block;
+	text-decoration:none;
+	text-indent:-999em;
+	background:url(/help/images/full-bhuna.png);
+	width:16px;
+	height:16px;
+	float:right;
+}

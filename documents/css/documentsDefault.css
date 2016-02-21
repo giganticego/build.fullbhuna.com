@@ -1,0 +1,218 @@
+
+
+ul.listTable li.docsItem span {
+	border: none;	
+}
+
+ul.listTable li.docsItem:hover  {
+	background-color:transparent;
+}
+
+.docsItem a.folder,
+.docsItem a.shortcut,
+.docsItem a.document {
+	text-decoration:none;
+	color:inherit;
+	padding: 4px 0;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	padding-left: 20px;
+	background-image: url(../images/document-.png);
+	border:none;
+}
+
+.docsItem a.folder {
+	background-image: url(../images/folder.png);
+	border:none;	
+}
+
+
+.docsItem a.shortcut {
+	background-image: url(../images/folder-shortcut-16.png);
+	border:none;	
+}
+
+.docsItem.shortcuttype2 a.shortcut  {
+	background-image:url(../../core/images/icons/world.png);
+	border:none;	
+}
+
+
+.documentActions {
+	padding-top: 4px;
+	visibility:hidden;
+}
+
+.docsItem:hover {
+	background-color:#F5F5F5;
+}
+
+.docsItem:hover .documentActions {
+	visibility:visible;
+}
+
+.docsItem a.applicationxshockwaveflash, docsItem a.swf, docsItem a.fla {
+	background-image: url(../images/document-application--x-shockwave-flash.png);
+}
+
+.docsItem a.flipbook {
+	background-image: url(../../core/images/icons/book_open.png);
+}
+
+.docsItem a.applicationpdf, .docsItem a.pdf {
+	background-image: url(../images/document-application--pdf.png);
+}
+.docsItem a.applicationvndmspowerpoint, .docsItem a.applicationvndopenxmlformatsofficedocumentpresentationmlpresentation, .docsItem a.applicationvndopenxmlformatsofficedocumentpresentationmlslideshow,  .docsItem a.ppt {
+	background-image: url(../images/document-application--vnd.ms-powerpoint.png);
+}
+.docsItem a.applicationmsword, .docsItem a.applicationvndopenxmlformatsofficedocumentwordprocessingmldocument, .docsItem a.applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate, .docsItem a.doc {
+	background-image: url(../images/document-application--msword.png);
+}
+.docsItem a.applicationzip, .docsItem a.applicationxstuffit, .docsItem a.applicationxrarcompressed, .docsItem a.zip {
+	background-image: url(../images/document-application--zip.png);
+}
+ 
+.docsItem a.imagegif, .docsItem a.imagejpg, .docsItem a.imagejpeg, .docsItem a.imagepjpeg, .docsItem a.imagepng, .docsItem a.jpg , docsItem a.jpe, docsItem a.png, docsItem a.gif, docsItem a.bmp, docsItem a.eps, docsItem a.psd {
+	background-image: url(../images/document-image--jpg.png);
+}
+.docsItem a.applicationvndmsexcel, .docsItem a.applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet, .docsItem a.applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate, .docsItem a.applicationvndmsexcel, .docsItem a.xls {
+	background-image: url(../images/document-application--vnd.ms-excel.png);
+}
+.docsItem a.videoxflv, .docsItem a.applicationvndmsasf, .docsItem a.videoxmsasf, .docsItem a.videoxmsasx, .docsItem a.videoxmsvideo, .docsItem a.videoquicktime, .docsItem a.videomp4, .docsItem a.videompeg, .docsItem a.videoxmswmv, .docsItem a.videoxm4v, .docsItem a.videoavi, .docsItem a.video3gpp, .docsItem a.video3gpp2, .docsItem a.videovndvivo,  docsItem a.avi, docsItem a.mov,docsItem a.wmv, docsItem a.mp4, docsItem a.mpe, docsItem a.flv
+{
+	background-image: url(../images/film.png);
+}
+
+
+ul.submenu  li a.addfolder {
+	background-image: url(../images/folder-new.png);
+}
+ul.submenu  li a.adddocument {
+	background-image: url(../images/document-new.png);
+}
+
+ul.submenu  li a.addshortcut {
+	background-image: url(../images/folder-shortcut-16.png);
+}
+
+.icon_text_useraccess {
+	padding: 0 0 0 19px;
+	height:16px;
+	background-image: url(../../core/images/icons/group.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	border:none;
+	color:#999;
+}
+
+h1.docsheader {
+	background-image: url(/documents/images/edit-copy.png);
+	background-repeat: no-repeat;
+	
+	padding-left:38px;
+	background-position: 0px center;
+	
+}
+
+h1.folderheader {
+	background-image: url(../images/document-open.png);
+	background-repeat: no-repeat;
+	
+	padding-left:38px;
+	background-position: 0px center;	
+}
+
+#folderheader {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin: 0 0 1em 0;
+}
+
+
+/*** DESKTOP VERSION ****/
+
+#documents-desktop {
+	position:relative;
+}
+
+#documents-desktop #info {
+	display:none;
+}
+
+#documents-desktop .docsItem {
+	position:absolute;
+}
+
+#documents-desktop .docsItem a.folder,
+#documents-desktop .docsItem a.shortcut,
+#documents-desktop .docsItem a.document {	display:block;
+	
+	min-width:32px;
+	max-width:64px;
+	padding:32px 0 0 0;
+	height:auto;
+	background-position: 50% 0;
+	background-size:32px 32px;
+	float:none;
+	text-align:center;
+	background-image: url(../images/desktop/default.ico);
+}
+
+#documents-desktop .docsItem a.folder {
+	background-image: url(../images/desktop/_Close.ico);
+}
+
+#documents-desktop .docsItem a.shortcut {
+	background-image: url(../images/desktop/_Close.ico);
+}
+
+
+#documents-desktop .docsItem.shortcuttype2 a.shortcut  {
+	background-image:url(../../core/images/icons-large/internet-web-browser.png);
+}
+#documents-desktop .docsItem .handle {
+	display:none;
+}
+
+#documents-desktop .documentActions {
+	display:block;
+	float:none;
+}
+
+
+
+#documents-desktop .docsItem a.flipbook {
+	background-image: url(../../core/images/icons/book_open.png);
+}
+
+#documents-desktop .docsItem a.applicationpdf {
+	background-image: url(../images/desktop/pdf.ico);
+}
+#documents-desktop .docsItem a.applicationvndmspowerpoint,  #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentpresentationmlpresentation,  #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentpresentationmlslideshow {
+	background-image: url(../images/desktop/powerpoint.ico);
+}
+#documents-desktop .docsItem a.applicationmsword, #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentwordprocessingmldocument, #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentwordprocessingmltemplate {
+	background-image: url(../images/desktop/word.ico);
+}
+
+
+#documents-desktop .docsItem a.imagegif {
+	background-image: url(../images/desktop/gif.ico);
+}
+#documents-desktop .docsItem a.imagejpg, #documents-desktop .docsItem a.imagejpeg, #documents-desktop .docsItem a.imagepjpeg {
+	background-image: url(../images/desktop/jpg.ico);
+}
+
+#documents-desktop .docsItem a.imagepng {
+	background-image: url(../images/desktop/png.ico);
+}
+
+#documents-desktop .docsItem a.applicationvndmsexcel,  #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentspreadsheetmlsheet,  #documents-desktop .docsItem a.applicationvndopenxmlformatsofficedocumentspreadsheetmltemplate {
+	background-image: url(../images/desktop/excel.ico);
+}
+#documents-desktop .docsItem a.videoxflv,  #documents-desktop .docsItem a.applicationvndmsasf,  #documents-desktop .docsItem a.videoxmsasf,  #documents-desktop .docsItem a.videoxmsasx,  #documents-desktop .docsItem a.videoxmsvideo,  #documents-desktop .docsItem a.videoquicktime, .docsItem a.videomp4, .docsItem a.videompeg,  #documents-desktop .docsItem a.videoxmswmv,  #documents-desktop .docsItem a.videoxm4v,  #documents-desktop .docsItem a.videoavi,  #documents-desktop .docsItem a.video3gpp,  #documents-desktop .docsItem a.video3gpp2,  #documents-desktop .docsItem a.videovndvivo
+{
+	background-image: url(../images/desktop/other_movie.ico);
+}
+

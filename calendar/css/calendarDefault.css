@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1.calheader {
+	background-image: url(/calendar/images/office-calendar.png);
+	background-repeat: no-repeat;
+	
+	padding-left:38px;
+	background-position: 0px center;
+}
+
+/*************** BASIC CALENDAR *************/
+
+table.calendar {
+	border-collapse:separate;
+	border-spacing: 2px;
+}
+
+table.calendar a {
+	display: table-cell;
+	color: #000066;
+	text-decoration: none;
+	
+}
+
+table.calendar thead {
+	background-color:rgb(0,0,0);
+}
+
+table.calendar td, 
+table.calendar th {
+	padding:0;
+	margin: 2px;
+	
+	
+	vertical-align:top;
+	text-align: right;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+	
+}
+
+table.calendar td, 
+table.calendar th,
+table.calendar td a, 
+table.calendar th a {
+	height: 76px;
+	width:76px;
+}
+
+
+
+table.calendar th
+{
+	text-align: center;
+	vertical-align: middle;
+	width: auto;
+	background-color:#666;
+	color:#FFF;
+	font-weight:bold;
+	font-size:1.2em;
+	border: 1px solid #666;	
+ outline: 2px solid #999;
+	-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+table.calendar th a:link,
+table.calendar th a:visited {
+	color:#FFF;
+	vertical-align:middle;
+}
+table.calendar th.monthname {
+	width:auto;
+	font-size:2em;
+}
+
+table.calendar td {
+	border: 1px solid #CCC;
+	background-image: url(../images/calendar-grad.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+table.calendar a:hover {
+	background-color:#CCC;
+	
+}
+
+
+table.calendar a.events {
+	background-color: #FF9999;
+}
+table.calendar a.events:hover {
+	background-color: #FF3300;
+}
+
+
+td.calendarToday {
+	outline: 2px solid #990000;
+}
+
+td a .calendarDate {
+	display:block;
+	padding: .5em;
+}
+
+td a .calendarEvents {
+	display:none;
+}
+
+/*********** MAIN PAGE *************/
+
+#monthCalendarContainer {
+	float:right;
+	margin: 2em 0 0 1em;
+	
+}
+
+.eventList .eventdate,
+.eventList .eventtitle {
+	display:block;
+	font-weight:bold;
+}
+
+.eventList .eventtime,
+.eventList .eventlocation,
+.eventList .eventcategory,
+.eventList .eventduration{
+	display:block;
+	color:#999;
+}
+
+.eventList .eventdate,
+.eventList .eventtime {
+	display:inline-block;
+}
+
+/*new list version */
+
+.eventList ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+
+.eventList ul li {
+	list-style:none;
+	padding:0;
+	margin:0 0 20px 0;
+	
+}
+
+/*************REGISTRATION **********/
+
+#registrationPage table tr > td:first-child {
+	width:40%;
+}
+
+
+
+/********** ADMIN VERSION ***************/
+
+#link_addmore, #extrarows {
+	display:none;
+}
+
+
+
+#pageDiaryManager #monthCalendarContainer {
+	float:right;
+	margin-left:5px;
+	width:320px;
+}
+
+ #pageDiaryManager table.calendar td {
+	height: 40px;
+	width:40px;
+	border: 1px solid #CCCCCC;
+	text-align: right;
+}
+#pageDiaryManager td.calendarToday {
+	border: 2px solid #990000;
+}
+#pageDiaryManager td.calendarHeader {
+	text-align: center;
+	vertical-align: middle;
+}
+#pageDiaryManager table.calendar a {
+display: block;
+height: 40px;
+width: 40px;
+}
+
+
+
+#pageDiaryManager table.calendar a:link, #pageDiaryManager table.calendar a:visited {
+	text-decoration: none;
+	border: none;
+	color: #000066;
+}
+#pageDiaryManager table.calendar a:hover, #pageDiaryManager table.calendar a:focus {
+	text-decoration: none;
+	border: none;
+	color: #000066;
+}
+#pageDiaryManager table.calendar a.notbooked:link, #pageDiaryManager table.calendar a.notbooked:visited {
+	background-color: #CCFFCC;
+}
+#pageDiaryManager table.calendar a.notbooked:focus, #pageDiaryManager table.calendar a.notbooked:hover {
+	background-color: #99FF99;
+}
+#pageDiaryManager table.calendar a.partbooked:link, #pageDiaryManager table.calendar a.partbooked:visited {
+	background-color: #FFCC66;
+}
+#pageDiaryManager table.calendar a.partbooked:focus, #pageDiaryManager table.calendar a.partbooked:hover {
+	background-color: #FF9966;
+}
+#pageDiaryManager table.calendar a.booked:link, #pageDiaryManager table.calendar a.booked:visited {
+	background-color: #FF9999;
+}
+#pageDiaryManager table.calendar a.booked:focus, #pageDiaryManager table.calendar a.booked:hover {
+	background-color: #FF3300;
+}

@@ -1,0 +1,390 @@
+html, body {
+	width:100%;
+	height:100%;
+}
+
+/* override Bootstrap */
+
+.adminBody legend { 
+	border:none;
+	margin:0;
+	font-size:12px;
+	width:auto;
+}
+
+.adminBody td {
+	padding: 2px;
+}
+
+.adminBody label {
+	font-weight:normal;
+}
+
+/* end override bootstrap */
+
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	background-color:rgb(51,51,51);
+	
+	
+}
+
+.adminBody section.content {
+	background-color:#FFF;
+}
+
+.adminBody section.content .container {
+	overflow:hidden;
+	padding: 10px 0;
+	 
+}
+ 
+
+.adminBody #header-wrapper {
+	width:100%;
+	overflow:hidden;
+	background-color:#333;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.adminBody #header {
+	
+	
+	
+	
+	position:relative;
+	
+} 
+
+.adminBody #header h1 {
+	
+	float:left;
+	font-size:5em;
+	
+	
+}
+
+.adminBody #header h1 a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.adminBody #header h2 {
+	float:right;
+	overflow:hidden;
+	text-indent:-999em;
+	background: url(/core/images/full_bhuna_logo81.gif) no-repeat right center;
+	background-size:contain;	
+	height: 80px;
+	width: 200px;	
+}
+
+
+
+
+
+
+.adminBody #mainContent {
+	margin:0 10px 0 40px;
+	
+} 
+
+
+
+.adminBody #mainContent h1 {
+	background-image: url(../images/icons-large/preferences-system.png);
+	background-repeat: no-repeat;
+	
+	padding-left: 38px;
+	background-position: 0px center;
+}
+
+.adminBody.dashboard #mainContent h1 {
+	background-image:url(../images/icons-large/appointment-new.png);
+}
+
+.adminBody #mainContent .articles h1 {
+	background-image: url(../../core/images/icons-large/x-office-document.png);
+}
+
+.adminBody #mainContent .articles h1 h1.homepage {
+	background-image:url(../../core/images/icons-large/go-home.png);
+}
+
+.adminBody #mainContent .calendar h1 {
+	background-image:url(../images/icons-large/office-calendar.png);
+}
+
+.adminBody #mainContent .users h1,
+.adminBody.users #mainContent h1  {
+	background-image: url(../images/icons-large/system-users.png);
+}
+
+.adminBody #mainContent .mail h1 {
+	background-image: url(../images/icons-large/internet-mail.png);
+}
+
+.adminBody #mainContent .letter h1,
+.adminBody.letter #mainContent  h1 {
+	background-image: url(../../documents/images/edit-copy.png);
+}
+
+.adminBody #mainContent .preferences h1 {
+	background-image: url(../images/icons-large/preferences-desktop-theme.png);
+}
+
+.adminBody #mainContent .favourites h1 {
+	background-image: url(../images/icons-large/emblem-favorite.png);
+}
+
+.adminBody #mainContent .regions h1 {
+	background-image: url(../images/icons-large/internet-web-browser.png);
+}
+
+.adminBody #mainContent .directory h1 {
+	background-image: url(../images/icons-large/directory.png);
+}
+
+.adminBody #mainContent .backup h1 {
+	background-image: url(../../documents/admin/backup/images/icons-large/drive-optical.png);
+}
+
+.adminBody #mainContent .forum h1 {
+	background-image: url(../images/icons-large/internet-group-chat.png);
+}
+
+.adminBody #mainContent .furniture h1 {
+	background-image: url(../images/icons-large/picture-frame.png);
+}
+
+.adminBody #mainContent .help h1 {
+	background-image: url(../images/icons-large/help.png);
+}
+
+.adminBody #mainContent .location h1 {
+	background-image: url(../../location/images/icons/flag_32.png);
+}
+
+.adminBody #mainContent .reminder h1 {
+	background-image: url(../images/icons-large/appointment-new.png);
+}
+
+.adminBody #mainContent .news h1 ,
+.adminBody #mainContent .blog h1 {
+	background-image: url(../images/icons-large/internet-news-reader.png);
+}
+
+.adminBody #mainContent .photos h1 {
+	background-image: url(../images/icons-large/camera-photo.png);
+}
+
+.adminBody.products #mainContent h1 {
+	background-image: url(../../products/images/icons/cart32x32.png);
+}
+
+.adminBody #mainContent .seo h1 {
+	background-image: url(../../seo/admin/images/icons-large/applications-internet.png);
+}
+
+.adminBody #mainContent .surveys h1 {
+	background-image: url(../images/icons-large/edit-paste.png);
+}
+
+.adminBody #mainContent .video h1 {
+	background-image: url(../images/icons-large/applications-multimedia.png);
+}
+
+.adminBody #mainContent .dashboard img {
+	padding: 0 20px;
+}
+.adminBody.bootstrap #mainContent .dashboard img {
+	padding: 0;
+}
+
+
+.adminBody #footer-wrapper {
+}
+.adminBody #footer { 
+
+margin:0 auto;
+overflow:hidden;
+	padding: 20px 0; 
+	
+	color:#FFFFFF;
+} 
+
+.adminBody #footer a { 	
+	color:inherit;
+	text-decoration:none;
+} 
+
+.adminBody #footer a:hover { 
+	text-decoration:underline;
+} 
+
+.adminBody #regionForm {
+	float:right;
+}
+
+
+
+
+#googlemap {
+	height: 450px;
+}
+
+
+.adminBody nav #mainMenu {
+	box-sizing:border-box;
+	padding: 0 5px 0 0;	
+	width: 165px;
+	z-index:10000;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);	
+	overflow:hidden;
+	background-color: #F1F1F1;
+	
+	position:relative;
+	
+	margin-left:-140px;
+	float:left;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.adminBody nav #mainMenu:hover {
+	left:140px;	
+}
+
+
+.adminBody nav ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.adminBody nav ul li {
+	list-style:none;
+	padding:0px;
+	margin: 5px 0px;
+	transition:.5s;
+}
+
+.adminBody nav ul li:hover {
+	background:none;
+	box-shadow:none;
+	background-color:#E0E0E0;
+}
+
+.adminBody nav  ul li a {
+	font-size: 11px;
+	text-decoration: none;
+	color: #333333;
+	padding: 4px 24px 4px 4px;
+	display:block;
+	background-image:url(/core/images/icons/cog.png);
+	background-repeat:no-repeat;
+	background-position: right 50%;
+	text-align:right;
+}
+
+.adminBody nav  ul li#admin_link_home a,
+.adminBody nav  ul li#admin_link_dashboard a {
+	background-image:url(/core/images/icons/preferences-system.png)
+}
+.adminBody nav ul #admin_link_site a {
+	background-image: url(/core/images/icons/grn_arrw_rt.png);
+}
+.adminBody nav ul #admin_link_homepage a {
+	background-image: url(/core/images/icons/house.png);
+}
+.adminBody nav ul #admin_link_news a {
+	background-image: url(/core/images/icons/newspaper.png);
+}
+.adminBody nav ul #admin_link_calendar a {
+	background-image: url(/core/images/icons/date.png);
+}
+.adminBody nav ul #admin_link_booking a {
+	background-image: url(/core/images/icons/office-calendar.png);
+}
+.adminBody nav ul #admin_link_articles a {
+	background-image: url(/core/images/icons/book_edit.png);
+}
+.adminBody nav ul #admin_link_video a {
+	background-image: url(/core/images/icons/applications-multimedia.png);
+}
+.adminBody nav ul #admin_link_links a {
+	background-image: url(/core/images/icons/link.png);
+}
+.adminBody nav ul #admin_link_directory a {
+	background-image: url(/core/images/icons/book_open.png);
+}
+.adminBody nav ul #admin_link_forum a {
+	background-image: url(/core/images/icons/comments.png);
+}
+.adminBody nav ul #admin_link_locations a {
+	background-image: url(/location/images/icons/flag_16.png);
+}
+.adminBody nav ul #admin_link_documents a {
+	background-image: url(/documents/images/edit-copy-16.png);
+}
+.adminBody nav ul #admin_link_users a {
+	background-image: url(/core/images/icons/group.png);
+}
+.adminBody nav ul #admin_link_surveys a {
+	background-image: url(/core/images/icons/emoticon_smile.png);
+}
+.adminBody nav ul #admin_link_blogs a {
+	background-image: url(/core/images/icons/comment_edit.png);
+}
+.adminBody nav ul #admin_link_jobs a {
+	background-image: url(/core/images/icons/thumb_up.png);
+}
+.adminBody nav ul #admin_link_regions a {
+	background-image: url(/core/images/icons/world_edit.png);
+}
+.adminBody nav ul #admin_link_groupemail a {
+	background-image: url(/core/images/icons/mail-reply-all.png);
+}
+.adminBody nav ul #admin_link_shop a {
+	background-image: url(/core/images/icons/cart.png);
+}
+.adminBody nav ul #admin_link_visitors a {
+	background-image: url(/core/images/icons/chart_pie.png);
+}
+.adminBody nav ul #admin_link_help a {
+	background-image: url(/core/images/icons/help.png);
+}
+.adminBody nav ul #admin_link_logout a {
+	background-image: url(/core/images/icons/logout.png);
+}
+
+.adminBody nav ul #admin_link_gallery a ,
+.adminBody nav ul #admin_link_photos a{
+	background-image: url(/core/images/icons/image-x-generic.png);
+}
+.adminBody nav ul #admin_link_furniture a {
+	background-image: url(/core/images/icons/picture-frame.png);
+}
+.adminBody nav ul #admin_link_reminders a {
+	background-image: url(/core/images/icons/appointment-new.png);
+}
+.adminBody nav ul #admin_link_database a {
+	background-image: url(/core/images/icons/system-file-manager.png);
+}
+
+
+.adminBody .TabbedPanelsTabSelected {
+	background-color: #fff;
+	border-bottom: solid 1px #fff;
+}
+
+.adminBody .TabbedPanelsContentGroup {
+	
+	background-color:#FFF;
+	
+}
+
+

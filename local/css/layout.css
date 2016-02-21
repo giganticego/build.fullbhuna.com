@@ -1,0 +1,173 @@
+/* Mobile first; then... */  
+@media (min-width: 768px) {
+	/* small eg iPad portrait */  
+}
+@media (min-width: 992px) {
+	/* medium, e.g iPad landscape, older monitors, laptops  */
+}
+@media (min-width: 1200px) {
+  /* large, e.g newer monitors, laptops */
+}
+
+
+/** FULL BHUNA STANDRAD MENU **/
+header nav {	
+	min-height:40px;
+}
+
+header nav .container {	
+position:relative;
+	border-top: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
+	border-right: 1px solid #d1d1d1;
+	padding:0;	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,ebebeb+100 */
+	background: #fefefe; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fefefe 0%, #ebebeb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fefefe 0%,#ebebeb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fefefe 0%,#ebebeb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ebebeb',GradientType=0 ); /* IE6-9 */
+}
+
+
+header nav ul,
+header nav ul li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+header nav ul.main-menu {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	z-index:10;
+	background:#FFF;
+	width:100%;
+	z-index:200; /* above any slide show */
+}
+
+header nav ul.main-menu  li {
+	position:relative;
+	-webkit-transition: background  .5s;
+	-moz-transition: background  .5s;
+	transition: background  .5s;
+
+}
+
+header nav ul.main-menu  li a {
+	display:block;
+	padding: 0 2em;
+	height:40px;
+	line-height:40px;
+	color:#131f78 ;	
+	text-decoration:none ;
+	border-right: 1px solid #d1d1d1;
+	text-align:center;
+}
+
+header nav ul.main-menu  li:hover,
+header nav ul.main-menu  li.selected {
+	background: #5BC0EB;
+	color:#ffffff;	
+}
+
+header nav ul.main-menu  li a:hover {
+	text-decoration:none;
+}
+
+header nav ul.main-menu li ul {
+	position:absolute;
+	background:#FFF;
+	top:-999em;
+	display:block;
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	opacity:0;	
+	max-height: 0; 
+	overflow-y:hidden;
+	-webkit-transition: opacity  .5s, max-height 2s;
+	-moz-transition:opacity  .5s, max-height 2s;
+	transition:  max-height 2s, opacity  .5s;
+}
+
+header nav ul.main-menu li:hover ul {
+	top:0;
+	position:relative;
+	max-height:1000px; /* needs to be larger than height */
+	-webkit-opacity:1;
+	-moz-opacity:1;
+	opacity:1;
+	
+}
+
+@media (min-width: 768px) {
+header nav .hamburger {
+	display:none;
+}
+
+header nav ul.main-menu {
+	display:block;
+	position:relative;
+	top:0;
+	width:auto;
+	background:transparent;
+}
+
+header nav ul li, header nav ul li a {
+	display:inline-block;
+}
+
+
+header nav ul.main-menu li a {
+	text-decoration:none;
+}
+
+
+header nav ul.main-menu li:hover ul {
+	position:absolute;
+	top:100%;
+	left:0;
+	z-index:200; /* above standard slideshow */
+	width:auto;	
+	min-width:100%;
+	-webkit-box-shadow: 0px 10px 20px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px -14px rgba(0,0,0,0.75);
+}
+
+header nav ul.main-menu li ul li {
+	display:block;
+	white-space:nowrap;
+}
+
+header nav ul.main-menu li:hover ul ul {
+	/* position further drop downs next to menu item */
+	top:0;
+	left:100%;
+}
+
+
+/* BCD SPECIFIC */
+
+ul.main-menu {
+	float:left;
+}
+ul.main-menu > li:hover:after,
+ul.main-menu > li.selected:after  {
+	content:"";
+	width:100%;
+	height:5px;
+	position:absolute;
+	bottom:-5px;
+	left:0;
+	background-color: #131f78;	
+}
+
+
+
+
+
+}

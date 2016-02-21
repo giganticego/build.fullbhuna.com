@@ -1,0 +1,286 @@
+
+h1.memberheader {
+	background-image: url(/core/images/icons-large/system-users.png);
+	background-repeat: no-repeat;
+	padding-left:38px;
+	background-position: 0px center;	
+}
+
+.usertype {
+	background-image:url(/core/images/icons/green-light.png);
+	background-repeat:no-repeat;
+	background-position: 50% 50%;
+	width: 20px;
+}
+.usertypeID0 {
+	background-image:url(/core/images/icons/amber-light.png);
+}
+.usertypeID-1,
+.usertypeID-2
+{
+	background-image:url(/core/images/icons/red-light.png);
+
+}
+
+.userID {
+	display:none;
+}
+
+
+/* Big Button menu */
+	.bigbuttonmenu {
+	width: 505px;
+	height:100px;
+	margin: 10px auto;
+}
+.bigbuttonmenu ul {
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+.bigbuttonmenu ul li {
+	display:inline;
+	padding: 0px;
+	margin: 0px;
+}
+.bigbuttonmenu ul li a {
+	margin: 0px;
+	height: 35px;
+	width: 67px;
+	display: block;
+	float: left;
+	text-align: center;
+	text-decoration:none;
+	font-size:80%;
+	padding-top: 38px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	background-color:#EDEDED;
+	border: 2px outset #CCCCCC;
+}
+.bigbuttonmenu ul li a:hover {
+	border: 2px solid #EDEDED;
+}
+.bigbuttonmenu ul li.documents a {
+	background-image: url(/core/images/icons-large/document-open.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.forum a {
+	background-image: url(/core/images/icons-large/internet-group-chat.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.photos a {
+	background-image: url(/core/images/icons-large/image-x-generic.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.profile a {
+	background-image: url(/core/images/icons-large/system-users.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.addresses a {
+	background-image: url(/core/images/icons-large/address-book-new.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.password a {
+	background-image: url(/core/images/icons-large/system-lock-screen.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+}
+.bigbuttonmenu ul li.controlpanel a {
+	background-image: url(/core/images/icons-large/preferences-system.png);
+	background-repeat: no-repeat;
+	background-position: 20px 6px;
+	border-color: #FF9900;
+}
+
+ul#userconnections {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+}
+
+ul#userconnections li {
+	list-style:none;
+	display:block;
+	margin:0 1em 0 0;
+	padding:0;
+	width: 75px;
+	float:left;
+}
+
+ul#userconnections li a {
+	text-decoration:none;
+	display:block;
+	float:left;
+}
+
+ul#userconnections li a:hover {
+	text-decoration:underline;
+}
+
+
+/* User Groups */
+table.user-groups .optin1 {
+	background-image:url(../../core/images/icons/mail-reply-all.png);
+	background-repeat:no-repeat;
+	background-position: 50% 50%;
+	width: 20px;
+}
+
+#profileheader {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	width:100%;
+	overflow:hidden;
+	padding: 0 0 1em 0;
+	
+}
+
+#profileimage {
+	float:left;
+}
+
+#optingroups label {
+	white-space:nowrap;
+	display:inline-block;
+	margin: .5em;
+}
+
+
+#profiletext {
+	margin: 0 0 0 180px;
+}
+
+#pageMemberDirectory a.link_email,
+#pageMemberDirectory a.link_view {
+	visibility:hidden;
+}
+
+#pageMemberDirectory .listTable tr:hover td a.link_email,
+#pageMemberDirectory .listTable tr:hover td a.link_view {
+		visibility:visible;
+
+}
+ul.memberbuttons {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+}
+
+ul.memberbuttons li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+
+
+ul.memberbuttons a {
+	display:block;
+	float:left;
+	width:130px;
+	height:30px;
+	border: 2px solid #999 !important;
+	margin:10px;
+	text-align:center;
+	background-color:#CCC;
+	padding: 130px 10px 10px 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-repeat: no-repeat;
+	background-position: 50% 10px;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+
+ul.memberbuttons a:hover {
+	background-color: #333;
+	color:#FFF;
+}
+
+.memberbuttons a.profile {
+		background-image: url(/members/images/Buddy.png);
+
+}
+
+.memberbuttons a.forum {
+	background-image: url(/members/images/Chat%202.png);
+}
+
+.memberbuttons a.admin {
+	background-image: url(/members/images/Settings.png);
+}
+
+.memberbuttons a.documents {
+	background-image: url(/members/images/Document%20Edit.png);
+}
+
+.memberbuttons a.database {
+	background-image: url(/members/images/Folders.png);
+}
+
+.memberbuttons a.microsite {
+	background-image: url(/members/images/Home.png);
+}
+
+.memberbuttons a.surveys {
+	background-image: url(/members/images/Chart%20Pie.png);
+}
+
+.memberbuttons a.logout,
+.memberbuttons a.login {
+	background-image: url(/members/images/Lock.png);
+}
+
+.memberbuttons a.info {
+	background-image: url(/members/images/Help.png);
+}
+.memberbuttons a.calendar {
+	background-image: url(/members/images/Calendar.png);
+}
+.memberbuttons a.tutor {
+	background-image: url(/members/images/Buddy-no-tie.png);
+}
+
+.memberbuttons a.search {
+	background-image: url(/members/images/search.png);}
+	
+	
+.memberbuttons a.news {
+	background-image: url(../images/RSS%202.png);
+}
+
+.memberbuttons a.mail {
+	background-image: url(../images/Mail.png);
+}
+
+.memberbuttons a.group {
+	background-image: url(../images/Buddy%20Group.png);
+}
+
+/** PROFILE PAGE **/
+
+.verified1 {
+	display:inline-block;
+	background-image:url(../../core/images/icons/tick-green.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	width:30px;
+}
+

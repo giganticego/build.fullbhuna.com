@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#loginBox {
+	border: 1px solid #CCCCCC;
+	
+	padding: 15px;
+	
+	min-height: 350px;
+}
+#signUpBox {
+	border: 1px solid #CCCCCC;
+	
+	padding: 15px;
+	min-height: 350px;
+		
+
+}
+
+.loginmessage {
+	text-align: center;
+}
+.loginmessage a:link, .loginmessage a:visited {
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../images/processing_login.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	display:block;
+	padding: 1.5em;
+}
+
+.loginmessage a:hover, .loginmessage a:focus {
+	text-decoration: underline;
+	
+}.labels {
+	text-align: right;
+	width: 80px;
+	float: left;
+	padding: 4px;
+}
+.inputs {
+	padding: 4px;
+}
+
+
+form#login fieldset {
+	border:none;
+	text-align:right;
+	position:relative;
+	
+}
+
+form#login label {
+	padding:3px;
+	display:block;
+	
+}
+
+#username, #password {
+	width:180px;
+}
+
+a#link_forgottenpassword {
+	text-decoration:none;
+	color:#999;
+	padding-right: .5em;
+}
+a#link_forgottenpassword:hover {
+	text-decoration:underline;
+}
+#loginTips {
+	clear:both;
+}

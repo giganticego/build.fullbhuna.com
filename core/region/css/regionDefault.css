@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1.regionheader {
+	background-image: url(../../images/icons-large/internet-web-browser.png);
+	background-repeat: no-repeat;
+	
+	padding-left:38px;
+	background-position: 0px center;
+}
+

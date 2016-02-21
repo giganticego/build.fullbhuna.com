@@ -1,0 +1,15 @@
+/* REVERT TI LEGACY MENU
+
+.adminBody #mainMenu {
+	margin-left:0 !important;
+}
+.adminBody #mainMenu:hover {
+	left:0 !important;
+	
+}
+.adminBody #mainContent {
+	width:780px !important;
+	margin-left:180px !important;
+}
+
+*/
